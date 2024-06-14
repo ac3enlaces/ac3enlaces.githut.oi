@@ -60,3 +60,7 @@ body {
 .ventanas a:hover {
   background-color: #318AAC; /* Azul clarito */
 }
+
+.alert{
+  background-color: #598cec;
+}
