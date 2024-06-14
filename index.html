@@ -6,7 +6,17 @@
     <link rel="stylesheet" href="index.css">
     <title>Enlaces administracion</title>
 </head>
-<body>
+    <style>
+  /* Color de fondo normal de la página */
+  body.normal {
+      background-color: white;
+  }
+  /* Color de fondo transparente oscuro de la página */
+  body.transparente-oscuro {
+      background-color: rgba(0, 0, 0, 0.7);
+  }
+</style>
+<bodyclass="normal">
         
 <!-- Aqui encotraras cada ventada para entrar a los periodos aminitrativo de cada comunidad  -->
 <!-- Guia rapida para entender el cogigo
@@ -179,6 +189,18 @@ IMG: aqui se guarda la imagen en link o formato jpg -->
      
     
   <script src="index.js"></script>
+
+    <script>
+    // Función para mostrar la alerta cuando la página se carga
+    function mostrarAlerta() {
+        alert("Bienvenido a la guía rápida sobre enlaces de la administración pública.\n\n" +
+              "En este enlace encontrarás toda la información necesaria para tramitar los procedimientos administrativos de todas las comunidades autónomas.\n\n" +
+              "Además, también podrás dar de alta a cualquier usuario.\n\n" +
+              "Si tienes algún problema con algún enlace, no dudes en comunicarlo al servicio técnico.");
+    }
+    // Añadir un evento para mostrar la alerta cuando la página se cargue completamente
+    window.onload = mostrarAlerta;
+</script>
 
 </body>
 </html>
